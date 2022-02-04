@@ -1,3 +1,7 @@
+html {
+  font-family: sans-serif;
+}
+
 .day-container {
   border: 1px solid;
   border-radius: 5px;

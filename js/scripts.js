@@ -34,3 +34,10 @@ $('#sunday').on('click', function ()
 {
 $('.right-half').html("Sunday <img src='https://img.discogs.com/N8gesMGLJRkgWb8231aRMw6wxJ4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4625247-1370296315-6051.jpeg.jpg'> Django Reinhardt")
 })
+
+// Consolidate the above listeners into one listener
+$('.day-container').on('click', function () {
+  var albumArt = $(this).data('album-art')
+  console.log(albumArt)
+  $("right-half").html(`<img src='${albumArt}'/>`)
+})
