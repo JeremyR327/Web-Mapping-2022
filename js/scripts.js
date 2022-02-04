@@ -36,8 +36,73 @@ $('.right-half').html("Sunday <img src='https://img.discogs.com/N8gesMGLJRkgWb82
 })
 
 // Consolidate the above listeners into one listener
-$('.day-container').on('click', function () {
+  $('.day-container').on('click', function () {
   var albumArt = $(this).data('album-art')
   console.log(albumArt)
-  $("right-half").html(`<img src='${albumArt}'/>`)
+  $(".right-half").html(`<img src='${albumArt}'/>`)
 })
+
+// The Following Code Will Tinker With Data Types in JavaScript //
+
+// Boolean
+var myBoolean = true
+
+$('.toggle').on('click', function() {
+
+  myBoolean = !myBoolean
+
+  console.log(myBoolean)
+})
+
+// Strings
+
+var firstName = 'Jeremy'
+var lastName = 'Rucker'
+
+var fullName = firstName + ' ' + lastName
+var fullNameAsTemplateLiteral = `${firstName} ${lastName}, esq.`
+
+console.log(fullName)
+console.log(fullNameAsTemplateLiteral)
+
+// numbers
+
+var age = 41
+var kidAge = 6
+var counter = 0
+var combinedAge = age + kidAge
+
+$('html').append(`<p> The combined age is ${combinedAge}</p>`)
+
+
+console.log(combinedAge)
+
+
+// arrays //
+
+var nameArray = ["chris", "Charlie", "Ben", "Nathan", "Renata"]
+console.log('The Person at position 4 in the array is', nameArray[4])
+nameArray.forEach(function (name, i) {
+
+  $('html').append(`<p> ${name} is stored in position ${i} </p>`)
+
+})
+
+var chrisObject = {
+  age: 41,
+  almaMater: 'NYU',
+  borough: 'Brooklyn',
+  dog: 'Tubu',
+  tired: true,
+  statesLivedIn: [
+    'MD',
+    'NY'
+  ]
+}
+
+var allStudents = {
+
+
+
+
+}
