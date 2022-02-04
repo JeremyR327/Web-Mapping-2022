@@ -1,0 +1,45 @@
+.day-container {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background: #e8f3ff;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+}
+
+.day-container:hover {
+  cursor: pointer;
+  background: #afb5bd;
+}
+
+.artist-name {
+  font-size: 14px;
+}
+
+.half-width {
+  width: 49%;
+  display: inline-block;
+}
+
+.half-width img{
+  width: 70%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title {
+     border: 7px solid #00894C;
+    width: 500px;
+    padding: 5px;
+    display:inline-block;
+}
+.right-half {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
