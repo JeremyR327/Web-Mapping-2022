@@ -1,3 +1,5 @@
+// These are listeners that respond to clicks on the Day of Week buttons //
+
 $('#monday').on('click', function ()
 {
 $('.right-half').html(" Monday <img src='https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Beatles_-_Abbey_Road.jpg/220px-Beatles_-_Abbey_Road.jpg'> The Beatles")
