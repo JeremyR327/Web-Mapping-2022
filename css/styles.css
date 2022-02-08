@@ -16,6 +16,10 @@ html {
   background: #afb5bd;
 }
 
+.day-container:active {
+  background: #afb5bd;
+}
+
 .artist-name {
   font-size: 14px;
 }
@@ -23,6 +27,13 @@ html {
 .half-width {
   width: 49%;
   display: inline-block;
+}
+
+.left-half {
+  /* position: fixed; */
+  align-items: center;
+  justify-content: center;
+
 }
 
 .half-width img{
@@ -37,12 +48,21 @@ html {
 }
 
 .title {
-     border: 7px solid #00894C;
+    border: 12px solid #00894C;
+    border-radius: 5px;
     width: 500px;
-    padding: 5px;
+    padding: 20px;
     display:inline-block;
 }
 .right-half {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.right-half h4 {
+  border: 3px solid;
+  border-radius: 40px;
+  padding: 20px 8px;
+  background: #ededed;
+
 }
