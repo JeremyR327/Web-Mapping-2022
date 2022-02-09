@@ -1,6 +1,11 @@
 html {
   font-family: sans-serif;
 }
+
+.title:hover {
+cursor: pointer;
+}
+
 /* This is the day button */
 .day-container {
   border: 1px solid;
